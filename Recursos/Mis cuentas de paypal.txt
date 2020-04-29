@@ -1,0 +1,15 @@
+*Cuenta [Compra]
+	phool_compra@gmail.com
+	123456789
+
+*Cuenta mercantil o bussines [ventas]:
+	sb-fqw3q716066@business.example.com	
+
+	123Antony123@gmail.com
+	password:
+	12345678
+
+*Cuenta Personal [compras]:
+	sb-pjfth758350@personal.example.com
+	sb-wfxae1087333@personal.example.com
+	

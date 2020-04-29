@@ -1,0 +1,55 @@
+/*Para el DATA PICKER*/
+.ui-datepicker {
+    font-size: 17px;
+}
+/*Para mi select2*/
+span#select2-misterS1-container,span#select2-misterS2-container,span#select2-misterS3-container {
+    margin: -14px;
+    padding-left: 15px;
+}
+/* Para el IconPicker */
+.fade:not(.show) {
+    opacity: 1;
+}
+/* Para Registrados */
+span#select2-regalo-container {
+    margin-top: -12px;
+}
+span.select2-selection.select2-selection--single {
+    padding: 18px;
+}
+span.select2-selection__arrow {
+    padding-top: 37px;
+}
+/* GDLWEBCAMP */
+.contenido-dia{
+    display: none;
+}
+.tabla-precio ul,
+ul.lista-precios{
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+h4.nombre_dia{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fe4918;
+}
+ul.lista-precios li .numero{
+    font-size: 30px;
+}
+.tabla-precio h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fe4918;
+}
+.contenido-dia label{
+    font-weight: normal;
+}
+.contenido-dia time{
+    color: #fe4918;
+    font-size: bold;
+}
