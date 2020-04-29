@@ -132,6 +132,16 @@
                                                                         $fecha = $eventos['fecha_evento'];
                                                                         setlocale(LC_TIME, 'es.UTF-8');
                                                                         $dia_semana = strftime("%A", strtotime($fecha));  
+                                                                        
+                                                                        
+                                                                        /************** CODIGO DE FREDDY ROJAS *********************/
+                                                                       
+                                                                          $fecha_d = date_create($fecha);
+                                                                          $dia_semana = date_format($fecha_d,"w");
+                                                                        
+                                                                        /*********************************************************/
+
+
 
                                                                         $categoria = $eventos['cat_evento'];
 
@@ -145,10 +155,17 @@
                                                                         $eventos_dias[$dia_semana]['eventos'][$categoria][] = $dia;
                                                                     }
                                                             ?>
-                                                            <?php foreach( $eventos_dias as $dia => $eventos ) {    ?>
-                                                                    <div id="<?php echo str_replace('á','a',$dia); ?>" class="contenido-dia clearfix ">
-                                                                      <h4 class="text-center nombre_dia"><?php echo $dia; ?></h4>
-
+                                                            <?php 
+                                                                  /************** CODIGO DE FREDDY ROJAS *********************/
+                                                                      $dias_ES = array("domingo","lunes", "martes", "miercoles", "jueves", "viernes", "sabado");
+                                                                  /*********************************************************/
+                                                                  foreach( $eventos_dias as $dia => $eventos ) {    ?>
+                                                                    <!-- /************** CODIGO DE FREDDY ROJAS *********************/-->
+                                                                        <div id="<?php echo str_replace('á','a',$dia); ?>" class="contenido-dia clearfix ">
+                                                                          <h4 class="text-center nombre_dia"><?php echo $dia; ?></h4>
+                                                                    <!--/*********************************************************/-->
+                                                                      <div id="<?php echo $dias_ES[$dia]; ?>" class="contenido-dia clearfix">
+                                                                        <h4><?php echo $dias_ES[$dia]; ?></h4>
 <div class="row">
                                                                       <?php 
                                                                           foreach ($eventos['eventos'] as $tipo => $evento_dia ): ?>
