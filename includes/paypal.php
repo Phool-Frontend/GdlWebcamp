@@ -4,7 +4,7 @@ require 'paypal/autoload.php';
 // Este es donde nos rediriguira cuando Paguemos en Paypay, esta en localhost 
 //define('URL_SITIO','http://localhost/proyecto-produccion');
 
-define('URL_SITIO','https://gdwebcamp.herokuapp.com/');
+define('URL_SITIO','https://gdwebcamp.herokuapp.com');
 
 $apiContext = new \PayPal\Rest\ApiContext(
     new \PayPal\Auth\OAuthTokenCredential(
