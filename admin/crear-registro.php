@@ -165,7 +165,7 @@
                                                                           <!--<h4 class="text-center nombre_dia"><?php echo $dia; ?></h4>-->
                                                                     <!--/*********************************************************/-->
                                                                       <div id="<?php echo $dias_ES[$dia]; ?>" class="contenido-dia clearfix">
-                                                                        <h4><?php echo $dias_ES[$dia]; ?></h4>
+                                                                      <h4 class="text-center nombre_dia"><?php echo $dias_ES[$dia]; ?></h4>
 <div class="row">
                                                                       <?php 
                                                                           foreach ($eventos['eventos'] as $tipo => $evento_dia ): ?>
