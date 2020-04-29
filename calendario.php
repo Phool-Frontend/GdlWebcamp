@@ -1,5 +1,5 @@
 <?php include_once 'includes/templates/header.php'; 
-mb_internal_encoding('UTF-8');
+
 ?>
 
   <section class="section contenedor">
