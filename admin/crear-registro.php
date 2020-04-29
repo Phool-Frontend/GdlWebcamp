@@ -161,8 +161,8 @@
                                                                   /*********************************************************/
                                                                   foreach( $eventos_dias as $dia => $eventos ) {    ?>
                                                                     <!-- /************** CODIGO DE FREDDY ROJAS *********************/-->
-                                                                        <div id="<?php echo str_replace('á','a',$dia); ?>" class="contenido-dia clearfix ">
-                                                                          <h4 class="text-center nombre_dia"><?php echo $dia; ?></h4>
+                                                                        <!--<div id="<?php echo str_replace('á','a',$dia); ?>" class="contenido-dia clearfix ">-->
+                                                                          <!--<h4 class="text-center nombre_dia"><?php echo $dia; ?></h4>-->
                                                                     <!--/*********************************************************/-->
                                                                       <div id="<?php echo $dias_ES[$dia]; ?>" class="contenido-dia clearfix">
                                                                         <h4><?php echo $dias_ES[$dia]; ?></h4>
